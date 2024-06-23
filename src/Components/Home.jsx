@@ -36,7 +36,7 @@ const Home = () => {
           </Link>
         </div>
         <div className="flex-row ">
-        <Link to="" target="_blank">
+        <Link to="https://drive.google.com/file/d/1fC0XbJSGwCiDyqFG-z9fKls975HXV40M/view" target="_blank">
           <button className="my-10 overflow-hidden relative w-32 p-1 h-10 bg-white text-black border-none rounded-md text-xl font-bold cursor-pointer z-10 group me-5">
             Resume
             <span className="absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left" />

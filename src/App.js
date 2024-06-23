@@ -13,7 +13,7 @@ import Menu from "./Components/Menu"
 function App() {
 
   return (
-     <div>
+     <div className="bg-black text-white">
       {/* <Navbar2/> */}
       <Menu/>
  <Routes>
