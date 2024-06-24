@@ -4,9 +4,9 @@ import About from "./Components/About"
 import Contact from "./Components/Contact"
 import './App.css'
 import Skill from "./Components/Skill"
-import { Project } from "./Components/Project"
 import Footer from "./Components/Footer"
-import Menu from "./Components/Menu"
+import Newmenu from "./Components/Newmenu"
+import Myproject from "./Components/Myproject"
 
 
 
@@ -14,13 +14,12 @@ function App() {
 
   return (
      <div className="bg-black text-white">
-      {/* <Navbar2/> */}
-      <Menu/>
+      <Newmenu/>
  <Routes>
   <Route path="/" element={<Home/>}></Route>
   <Route path="/about" element={<About/>}></Route>
   <Route path="/contact" element={<Contact/>}></Route>
-  <Route path="/project" element={<Project/>}></Route>
+  <Route path="/project" element={<Myproject/>}></Route>
   <Route path="/skill" element={<Skill/>}></Route>
  </Routes>
    <Footer/>

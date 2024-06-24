@@ -9,7 +9,7 @@ const Myproject = () => {
   return (
     <div>
       <div className="text-center mt-10">
-        <h1 className="text-6xl sm:text-5xl font-bold">My<span className="text-yellow-500 ml-4">Projects</span> </h1>
+        <h1 className="sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-4xl">My<span className="text-yellow-500 ml-4">Projects</span> </h1>
       </div>
       <section className="text-white body-font mt-16">
         <div className="container mx-auto flex py-10 px-5 md:flex-row flex-col items-center">
@@ -133,7 +133,10 @@ const Myproject = () => {
               <Link to="https://github.com/Furqan-Hashmie/Portfolio-website" target="_blank" rel="noopener noreferrer">
                 <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2">Watch Code</button>
               </Link>
-              <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
+
+           <Link to="https://furqan-hashmi-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+           <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
+           </Link>
             </div>
           </div>
         </div>

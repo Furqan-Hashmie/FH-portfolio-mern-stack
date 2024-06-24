@@ -6,14 +6,14 @@ const Home = () => {
   return (
     <div className="text-center sm:ml-0 md:ml-24 lg:ml-0 xl:ml-0">
       <div className="container text-center mt-16 ">
-        <h1 className="text-6xl sm:text-5xl font-bold"> Hello, I am <span className="text-yellow-500">Furqan Hashmi</span> </h1>
-        <h2 className="text-3xl my-8 font-semibold ">
+        <h1 className="sm:text-4xl md:text-4xl lg:text-5xl font-bold text-2xl"> Hello, I am <span className="text-yellow-500">Furqan Hashmi</span> </h1>
+        <h2 className="lg:text-3xl xl:text-3xl md:text-3xl sm:text-2xl text-xl my-8 font-semibold ">
           <TypewriterComponent options={{
             strings: ["A Mern Stack Developer", "An Expert Digital Marketer", "Curious to Learn new Things"],
             autoStart: true, loop: true, deleteSpeed: 30
           }} />
         </h2>
-        <p className="px-24 text-lg">My journey in the industry has equipped me with
+        <p className="px-4 sm:px-8 md:px-24 text-base sm:text-lg leading-relaxed">My journey in the industry has equipped me with
           a deep understanding of MERN stack technologies, including
           MongoDB, Express Js, React Js, and Node Js. Additionally, I
           am proficient in languages such as HTML, CSS, and

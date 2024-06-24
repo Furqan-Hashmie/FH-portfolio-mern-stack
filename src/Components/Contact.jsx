@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div>
      <div className="max-w-2xl mx-auto text-center mt-10">
-  <h1 className="text-6xl sm:text-5xl font-bold">Contact<span className="text-yellow-500 ml-4">Me</span></h1>
+  <h1 className="sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-4xl">Contact<span className="text-yellow-500 ml-4">Me</span></h1>
     </div>
   <section className="bg-black mt-24">
   <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -41,8 +41,8 @@ const Contact = () => {
   </div>
 </section>
         <hr className="my-6 border border-yellow-500 w-3/12 mx-auto mt-24" />
-  <h1 className="text-6xl sm:text-5xl font-bold text-center mt-10">Get in<span className="text-yellow-500 ml-4">Touch</span></h1>
-      <div className="flex justify-center sm:space-x-4 md:space-x-20 lg:space-x-28 xl:space-x-32 mt-20">
+  <h1 className="sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-4xl text-center mt-10">Get in<span className="text-yellow-500 ml-4">Touch</span></h1>
+      <div className="justify-center sm:flex md:flex lg:flex xl:flex flex-none sm:space-x-4 md:space-x-20 lg:space-x-28 xl:space-x-32 mt-20 sm:ml-0 md:ml-0 lg:ml-0 xl:ml-0 ml-20">
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="flex">
         <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" alt="img" className="h-10 w-10 me-2" />
         <p className="text-white mt-1 text-2xl">Facebook</p>

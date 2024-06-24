@@ -1,82 +1,111 @@
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGithub } from "react-icons/fa"
+import { FaHtml5, FaCss3Alt, FaReact, FaGithub, FaBootstrap, FaNode, FaGitAlt } from "react-icons/fa"
 import { TbBrandJavascript } from "react-icons/tb"
-import { SiMongodb, SiRedux, SiExpress, SiBootstrap, SiNetlify, SiTailwindcss } from "react-icons/si"
+import { SiMongodb, SiRedux, SiExpress, SiTailwindcss } from "react-icons/si"
 
 export default function skill() {
   return (
     <div>
       <div className="text-center mt-10">
-        <h1 className="text-6xl sm:text-5xl font-bold">My<span className="text-yellow-500 ml-4">Skills</span> </h1>
+        <h1 className="sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-4xl">My<span className="text-yellow-500 ml-4">Skills</span> </h1>
       </div>
 
-      <div className="mt-24">
-        <div className=" justify-center flex gap-x-20 sm:gap-x-7 md:gap-x-20 lg:gap-x-20 list-none my-10 text-yellow-500">
-          <li className="">
-            <FaHtml5 size={80} />
-            <h5 className="ml-5"> HTML5</h5>
-          </li>
-
-          <li className="">
-            <FaCss3Alt size={80} />
-            <h5 className="ml-5"> CSS3</h5>
-          </li>
-
-          <li className="">
-            <SiBootstrap size={80} />
-            <h5>Bootstrap</h5>
-          </li>
-
-          <li className="">
-            <TbBrandJavascript size={80} />
-            <h5> JavaScript</h5>
-          </li>
-
-          <li className="">
-            <SiTailwindcss size={80} />
-            <h5> Tailwind Css</h5>
-          </li>
-
-          <li className="">
-            <FaReact size={80} />
-            <h5 className="ml-5"> React</h5>
-          </li>
-        </div>
-
-        <div className="flex justify-center list-none gap-x-20 sm:gap-x-7 md:gap-x-20 lg:gap-x-20 my-10 text-yellow-500">
-          <li className="">
-            <SiMongodb size={80} />
-            <h5>MongoDB</h5>
-          </li>
-
-          <li className="">
-            <SiRedux size={80} />
-            <h5 className="ml-5">Redux</h5>
-          </li>
-
-          <li className="">
-            <SiExpress size={80} />
-            <h5 className="ml-5">Express</h5>
-          </li>
-
-
-          <li className="">
-            <FaNodeJs size={80} />
-            <h5 className="ml-3">NodeJs</h5>
-          </li>
-
-
-
-          <li className="">
-            <FaGithub size={80} />
-            <h5 className="ml-4">GitHub</h5>
-          </li>
-
-          <li className="">
-            <SiNetlify size={80} />
-            <h5 className="ml-3">Netlify</h5>
-          </li>
-        </div>
+      <section className="w-screen mt-20">
+  <div className="grid grid-cols-1 grid-rows-2 gap-6 mx-auto text-center sm:grid-cols-2 md:max-w-screen-lg md:grid-cols-4 md:px-0 text-white mb-20 ">
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <FaHtml5 size={80}/>
       </div>
+      <h3 className="text-xl font-semibold text-yellow-500">HTML5</h3>
+    </div>
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <FaCss3Alt size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">CSS3</h3>
+    </div>
+    
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <TbBrandJavascript size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">JavaScript</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <FaBootstrap size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">Bootstrap</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <SiMongodb size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">MongoDB</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <SiExpress size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">Express</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <FaReact size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">React</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <FaNode size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">Node js</h3>
+    </div>
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <SiTailwindcss size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">Tailwind Css</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <SiRedux size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">Redux</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <FaGitAlt size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">Git</h3>
+    </div>
+
+    <div className="flex aspect-square flex-col items-center justify-center space-y-3 bg-black border rounded-2xl border-white shadow-md shadow-blue-100 p-2">
+      <div className="text-yellow-500">
+        {/* fet:flag */}
+   <FaGithub size={80}/>
+      </div>
+      <h3 className="text-xl font-semibold text-yellow-500">Github</h3>
+    </div>
+  </div>
+</section>
     </div>
 
 
