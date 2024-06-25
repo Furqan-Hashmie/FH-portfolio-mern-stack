@@ -48,7 +48,9 @@ const Myproject = () => {
             </ul>
 
             <div className="flex justify-center">
-              <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2">Watch Code</button>
+            <Link to="https://github.com/Furqan-Hashmie/J.-website-frontend-" target='_blank'>
+            <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2">Watch Code</button>
+            </Link>
               <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
             </div>
           </div>
@@ -92,7 +94,9 @@ const Myproject = () => {
               <Link to="https://github.com/Furqan-Hashmie/Pny-website-clone" target="_blank">
                 <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2">Watch Code</button>
               </Link>
-              <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
+              <Link to="https://training-institute-website.vercel.app/">
+                <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl   focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -134,9 +138,9 @@ const Myproject = () => {
                 <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2">Watch Code</button>
               </Link>
 
-           <Link to="https://furqan-hashmi-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
-           <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
-           </Link>
+              <Link to="https://portfolio-website-red-six-29.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
+              </Link>
             </div>
           </div>
         </div>

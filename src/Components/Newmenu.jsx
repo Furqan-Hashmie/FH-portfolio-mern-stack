@@ -10,18 +10,15 @@ const Newmenu = () => {
 
   return (
     <div>
-      <nav className=" border-gray-200 bg-black">
+      <nav className=" border-gray-200 bg-black pt-2">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <button
-                    as="a"
-                    href="#"
-                    className="ml-14 sm:ml-2 md:ml-5 cursor-pointer font-extrabold shadow-md p-2 rounded-md shadow-white flex border"
-                  >
+     <Link to="/">
+     <button className="sm:ml-2 md:ml-5 lg:ml-0 xl:-ml-2 cursor-pointer font-extrabold shadow-md p-2 rounded-md shadow-white flex border">
                     <p className='text-white'>
                       FH DEVELOPER
                     </p>
-        
                   </button>
+     </Link>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
