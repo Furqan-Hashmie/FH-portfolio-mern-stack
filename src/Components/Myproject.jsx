@@ -91,10 +91,10 @@ const Myproject = () => {
             </ul>
 
             <div className="flex justify-center">
-              <Link to="https://github.com/Furqan-Hashmie/Pny-website-clone" target="_blank">
+              <Link to="https://github.com/Furqan-Hashmie/Pny-website-clone" target="_blank" rel="noopener noreferrer">
                 <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-4 mb-2">Watch Code</button>
               </Link>
-              <Link to="https://training-institute-website.vercel.app/">
+              <Link to="https://training-institute-website.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl   focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Watch Live</button>
               </Link>
             </div>
